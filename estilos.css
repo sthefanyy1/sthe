@@ -1,0 +1,123 @@
+.container-cards{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 40px;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 12px 12px 0 0;
+    background-color:rgb(253, 219, 244);
+}
+
+.card1{ 
+    display: flex;
+    flex-direction: column;
+
+    width: 268px;
+    
+    border-radius: 12px;
+
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.pacote{
+    width: fit-content;
+    padding: 5px;
+    
+    border-radius: 20px;
+    background-color: rgb(215, 70, 215);
+    color: white;
+}
+
+.desconto{
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+
+    color: rgb(92, 84, 84);
+}
+
+.pontos{
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.foto{
+    align-self: center;
+}
+
+.rodape1{
+    padding: 10px;
+
+    border-radius: 0 0 12px 12px;
+
+    background-color: rgb(215, 70, 215);
+    color: white;
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+
+.conteudoAmarelo{
+    background-color: rgb(246, 228, 127);
+}
+
+.pacoteAmarelo{
+    background-color: rgb(205, 106, 53);
+    color: white;
+}
+
+.rodapeAmarelo{
+    background-color: rgb(205, 106, 53);
+    color: white;
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+
+.conteudoVerde{
+    background-color:rgb(143, 219, 124);
+}
+
+.pacoteVerde{
+    background-color: rgb(37, 116, 2);
+    color: white;
+}
+
+.rodapeVerde{  
+    background-color: rgb(37, 116, 2);
+    color: white;
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+
+.conteudoAzul{
+    background-color:rgb(163, 237, 248);
+}
+
+.pacoteAzul{
+    background-color: rgb(41, 92, 210);
+    color: white;
+}
+
+.rodapeAzul{
+    background-color: rgb(41, 92, 210);
+    color: white;
+}
+
+/*----------LINK---------*/
+
+.link{
+    color: rgb(10, 108, 206);
+    font-weight: 500;
+    font-size: 22px;
+}
